@@ -1,0 +1,25 @@
+book: 
+https://docs.docker.com/engine/ 
+
+FROM python:3.11-slim
+Chỉ định sử dụng image Python 3.11 phiên bản "slim" (nhẹ, chỉ chứa những thành phần cơ bản) làm nền tảng cho container.
+
+WORKDIR /app
+Thiết lập thư mục làm việc mặc định trong container là /app. Các lệnh tiếp theo sẽ thực hiện trong thư mục này.
+
+COPY [bai11_while.py](http://_vscodecontentref_/0) .
+Sao chép file bai11_while.py từ máy chủ (host) vào thư mục /app trong container.
+
+CMD ["python", "bai11_while.py"]
+Thiết lập lệnh mặc định khi container chạy: thực thi file bai11_while.py bằng Python.
+
+![image](https://github.com/user-attachments/assets/4b00cca0-d353-4526-8114-c48d8f39754f)
+![image](https://github.com/user-attachments/assets/6637d712-a99d-4940-9a43-ff4c0d7b1b10)
+![image](https://github.com/user-attachments/assets/ce3d0ebe-9acb-4ef6-9f80-df3bc8adbc07)
+![image](https://github.com/user-attachments/assets/54c17361-60b5-4c74-a066-a72298e3c0eb)
+![image](https://github.com/user-attachments/assets/31b7de0b-e6ab-4f65-a7c1-f7cc506c8051)
+![image](https://github.com/user-attachments/assets/92edd2d2-8302-4627-8633-925b3d345c98)
+
+- các dự án đã chạy 
+![image](https://github.com/user-attachments/assets/8d1e436b-6029-4e8e-9dd7-16a2ced79efa)
+
