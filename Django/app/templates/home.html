@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}Trang chủ{% endblock %}
+{% block content %}
+    <h1>Chào mừng đến với website Django!</h1>
+    <p>Đây là trang chủ. Hãy khám phá các trang khác qua thanh menu phía trên.</p>
+{% endblock %}
+{% block footer %}
+    <p>© 2025 My Django Site</p>
+{% endblock %}
+{% block scripts %}
+    <script>
+        console.log("Trang chủ đã được tải!");
+    </script>
+{% endblock %}
+{% block styles %}
+    <style>
+        body { background-color: #f0f0f0; }
+        h1 { color: #333; }
+        p { font-size: 1.2em; }
+    </style>
+{% endblock %}
+{% block extra_content %}
+    <div class="extra-content">
+        <p>Đây là nội dung bổ sung chỉ hiển thị trên trang chủ.</p>
+    </div>
+{% endblock %}
+{% block sidebar %}
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Đây là thanh bên. Bạn có thể thêm các liên kết hoặc thông tin khác tại đây.</p>
+    </div>
+{% endblock %}
+{% block main_content %}
+    <div class="main-content">
+        <p>Nội dung chính của trang sẽ hiển thị ở đây.</p>
+    </div>
+{% endblock %}
+{% block additional_info %}
+    <div class="additional-info">
+        <p>Thông tin bổ sung: Bạn có thể thêm các thông tin khác tại đây.</p>
+    </div>
+{% endblock %}
+{% block custom_block %}
+    <div class="custom-block">
+        <p>Đây là khối tùy chỉnh. Bạn có thể thêm nội dung theo ý muốn.</p>
+    </div>
+{% endblock %}
+{% block custom_script %}
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Custom script đã được tải!");
+        });
+    </script>
+{% endblock %}
+{% block custom_style %}
+    <style>
+        .custom-style { color: blue; }
+    </style>
+{% endblock %}
+{% block custom_footer %}
+    <footer class="custom-footer">
+        <p>Đây là chân trang tùy chỉnh.</p>
+    </footer>
+{% endblock %}
+{% block custom_header %}
+    <header class="custom-header">
+        <h1>Đây là tiêu đề tùy chỉnh</h1>
+    </header>
+{% endblock %}
+{% block custom_navbar %}
+    <nav class="custom-navbar">
+        <ul>
+            <li><a href="/">Trang chủ</a></li>
+            <li><a href="/about/">Giới thiệu</a></li>
+            <li><a href="/contact/">Liên hệ</a></li>
+        </ul>
+    </nav>
+{% endblock %}
+{% block custom_section %}
+    <section class="custom-section">
+        <h2>Phần tùy chỉnh</h2>
+        <p>Đây là phần tùy chỉnh có thể chứa bất kỳ nội dung nào bạn muốn.</p>
+    </section>
+{% endblock %}
+{% block custom_div %}
+    <div class="custom-div">
+        <h3>Div tùy chỉnh</h3>
+        <p>Đây là một div tùy chỉnh có thể chứa nội dung riêng biệt.</p>
+    </div>
+{% endblock %}
