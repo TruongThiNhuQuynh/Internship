@@ -1,0 +1,7 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY bai11_while.py .
+
+CMD ["python", "bai11_while.py"]
